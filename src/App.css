@@ -6,7 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+input::placeholder{
+  padding-left: 20px;
+  
+ }
+ #fatema{
+  color: rgb(126, 61, 61);
+ }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
