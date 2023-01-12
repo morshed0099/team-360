@@ -6,13 +6,38 @@
   height: 40vmin;
   pointer-events: none;
 }
-input::placeholder{
+
+input::placeholder {
   padding-left: 20px;
-  
- }
- #fatema{
-  color: rgb(126, 61, 61);
- }
+
+}
+
+.info {
+  border: 2px solid #9747FF;
+  border-style: dashed;
+}
+
+.taks {
+  background-color: #C6C7F8;
+}
+
+table,
+th{
+  border: 1px solid rgb(236, 233, 233);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#department,
+input::placeholder {
+  color: rgb(49, 47, 47);
+  font-weight: 500;
+  font-size: 17px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -38,6 +63,7 @@ input::placeholder{
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
