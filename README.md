@@ -1,3 +1,15 @@
+
+###live site link
+https://effervescent-jalebi-8ccf8c.netlify.app/
+
+###tecnology used
+react ,react router dom, tailwin css, daisyui,
+
+md.golam morshed
++8801991394353
+mdgolammorshed0099@gmail.com
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
