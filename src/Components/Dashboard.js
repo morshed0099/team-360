@@ -16,7 +16,7 @@ const Dashboard = () => {
 
                 <div className='grid gap-4 grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
 
-                    <div className='col-span-2'>
+                    <div className='col-span-2 mr-3'>
                         <p className='md:mt-10 mt-3 mb-3 text-1xl text-black font-bold '>Expense Report</p>
 
                         <div className='p-6 mb-3 bg-white border rounded-md '>

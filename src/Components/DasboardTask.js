@@ -2,8 +2,8 @@ import React from 'react';
 
 const DasboardTask = () => {
     return (
-        <div className='px-2'>
-            <div className='info w-[385px] lg:w-[250px] rounded-md p-4 mb-3 pr-8'>
+        <div className='w-full col-span-1'>
+            <div className='info  rounded-md p-4 mb-3 pr-8'>
                 <div className='mb-3'>
                     <p>Total task</p>
                     <p className='text 2xl font-semibold text black'>112</p>

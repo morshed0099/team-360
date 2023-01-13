@@ -21,7 +21,7 @@ const Attendance = () => {
             </div>
             <div  className='mr-6 mb-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4'>
                 <div>
-                    <input type="date" id='department' className='h-[64px] w-full  p-3 input input-bordered  rounded-md' />
+                    <input type="date" id='department' placeholder='jan/1/2023' className='h-[64px] w-full  p-4 input input-bordered  rounded-md' />
                 </div>
                 <div>
                     <input id='department' type="text" placeholder='Department' className='h-[64px] w-full p-3 input input-bordered text-2xl rounded-md' />
