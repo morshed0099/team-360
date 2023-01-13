@@ -2,6 +2,8 @@ import React from 'react';
 import giear from '../media/giear.svg'
 import doc from '../media/doc.png'
 import eye from '../media/eye.png'
+import right from '../media/rightarow.png'
+import left from '../media/leftarow.png'
 
 
 
@@ -63,8 +65,8 @@ const Attendance = () => {
             </div>
 
             {/* table  */}
-            <div className='mb-8 bg-white mr-6 mt-6 rounded-md'>
-                <div className="overflow-x-auto w-full mb-4 pr-8">
+            <div className=' bg-white mr-6 mt-6 rounded-2xl pb-4 mb-3 '>
+                <div className="overflow-x-auto w-full mb-4">
                     <table className="table w-full">
                         <thead>
                             <tr>
@@ -180,6 +182,29 @@ const Attendance = () => {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+                <div className='flex justify-end items-center mr-6 pb-8 mt-14'>
+                    <div>
+                        <div><img className='h-[10px] w-[10px] cursor-pointer' src={right} alt="" /></div>
+                    </div>
+                    <div className='px-3 py-2 rounded-md hover:bg-slate-300'>
+                        <p>1</p>
+                    </div>
+                    <div className='px-3 py-2 rounded-md hover:bg-slate-300'>
+                        <p>2</p>
+                    </div>
+                    <div className='px-3 py-2 rounded-md hover:bg-slate-300'>
+                        <p>3</p>
+                    </div>
+                    <div className='px-3 py-2 rounded-md hover:bg-slate-300'>
+                        <p>4</p>
+                    </div>
+                    <div className='px-3 py-2 rounded-md hover:bg-slate-300'>
+                        <p>5</p>
+                    </div>
+                    <div>
+                        <div><img className='h-[10px] w-[10px] cursor-pointer' src={left} alt="" /></div>
+                    </div>
                 </div>
             </div>
         </div>

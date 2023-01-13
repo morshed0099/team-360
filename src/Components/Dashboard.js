@@ -14,12 +14,12 @@ const Dashboard = () => {
                     <DashboardCard></DashboardCard>
                 </div>
 
-                <div className='flex flex-wrap md:justify-center lg:justify-start justify-center gap-4'>
+                <div className='grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
 
-                    <div>
+                    <div className='col-span-2'>
                         <p className='md:mt-10 mt-3 mb-3 text-1xl text-black font-bold '>Expense Report</p>
 
-                        <div className='p-6 mb-3 bg-white border rounded-md w-[400px] '>
+                        <div className='p-6 mb-3 bg-white border rounded-md '>
 
                             <div className='flex justify-between mb-8'>
                                 <div className='flex'>

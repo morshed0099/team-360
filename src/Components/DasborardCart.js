@@ -1,30 +1,30 @@
 import React from 'react';
-import { Tooltip } from 'react-daisyui';
-import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
+
+import { Area, AreaChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const DasborardCart = () => {
     const data = [
         {
             name: 'Nov 1',
-            uv: 4000,
+            uv: 2000,
             pv: 2400,
             amt: 2400,
         },
         {
             name: 'Nov 2',
-            uv: 3000,
+            uv: 1500,
             pv: 1398,
             amt: 2210,
         },
         {
             name: 'Nov 3',
-            uv: 2000,
+            uv: 1900,
             pv: 9800,
             amt: 2290,
         },
         {
             name: 'Nov 4',
-            uv: 2780,
+            uv: 1700,
             pv: 3908,
             amt: 2000,
         },
@@ -36,19 +36,39 @@ const DasborardCart = () => {
         },
         {
             name: 'Nov 6',
-            uv: 2390,
+            uv: 1200,
             pv: 3800,
             amt: 2500,
         },
         {
             name: 'Nov 7',
-            uv: 3490,
+            uv: 1800,
+            pv: 4300,
+            amt: 2100,
+        },
+        {
+            name: 'Nov 8',
+            uv: 1600,
+            pv: 4300,
+            amt: 2100,
+        },
+        {
+            name: 'Nov 9',
+            uv: 1700,
+            pv: 4300,
+            amt: 2100,
+        },
+        {
+            name: 'Nov 10',
+            uv: 1500,
             pv: 4300,
             amt: 2100,
         },
     ];
-    return (    
-            <AreaChart width={350} height={250} data={data}
+    return (
+        <ResponsiveContainer width="100%" height={122} >
+
+            <AreaChart width={750} data={data}
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <defs>
                     <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -57,14 +77,17 @@ const DasborardCart = () => {
                     </linearGradient>
 
                 </defs>
+                <Tooltip/>
                 <XAxis dataKey="name" />
+                <YAxis />
 
-
-                <Tooltip />
-                <Area type="monotone" dataKey="uv" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
+                <Area type="monotone" dataKey="amt" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />
 
             </AreaChart>
-     
+        </ResponsiveContainer>
+
+
+
     );
 };
 

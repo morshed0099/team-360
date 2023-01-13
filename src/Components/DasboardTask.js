@@ -2,7 +2,7 @@ import React from 'react';
 
 const DasboardTask = () => {
     return (
-        <div className='info w-[390px] lg:w-[250px] h-[420px] rounded-md p-4 mb-3 pr-8'>
+        <div className='info w-[390px] lg:w-[250px] rounded-md p-4 mb-3 pr-8'>
             <div className='mb-3'>
                 <p>Total task</p>
                 <p className='text 2xl font-semibold text black'>112</p>

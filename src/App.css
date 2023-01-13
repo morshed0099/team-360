@@ -6,7 +6,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.active{
+ display: flex;
+ padding-left: 48px;
+ width: 100%;
+ background-color: #EEEEEE33;
+}
+.deactive{
+  display: flex;
+  padding-left: 48px;
+  width: 100%;
+}
 input::placeholder {
   padding-left: 20px;
 
