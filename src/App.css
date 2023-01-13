@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.total{
+  font-size: 1rem;
+}
 .active{
  display: flex;
  padding-left: 48px;

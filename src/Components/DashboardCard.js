@@ -11,7 +11,7 @@ const DashboardCard = () => {
                         <img className='lg:h-4 lg:mt-1 lg:w-6  h-5 mt-0 w-8' src={people} alt="" />
                     </div>
                     <div>
-                        <h3 className='text-gray-400 '>Total Employee</h3>
+                        <h3 className='text-gray-400 total '>Total Employee</h3>
                     </div>
                 </div>
                 <div className='flex justify-between items-center'>
@@ -66,7 +66,7 @@ const DashboardCard = () => {
                         <img className='lg:h-4 lg:mt-1 lg:w-6  h-5 mt-0 w-8' src={people} alt="" />
                     </div>
                     <div>
-                        <h3 className='text-gray-400 '>Total Employee</h3>
+                        <h3 className='text-gray-400 total '>Total Employee</h3>
                     </div>
                 </div>
                 <div className='flex justify-between items-center'>
@@ -121,7 +121,7 @@ const DashboardCard = () => {
                         <img className='lg:h-4 lg:mt-1 lg:w-6  h-5 mt-0 w-8' src={people} alt="" />
                     </div>
                     <div>
-                        <h3 className='text-gray-400 '>Total Employee</h3>
+                        <h3 className='text-gray-400 total'>Total Employee</h3>
                     </div>
                 </div>
                 <div className='flex justify-between items-center'>
@@ -176,7 +176,7 @@ const DashboardCard = () => {
                         <img className='lg:h-4 lg:mt-1 lg:w-6  h-5 mt-0 w-8' src={people} alt="" />
                     </div>
                     <div>
-                        <h3 className='text-gray-400 '>Total Employee</h3>
+                        <h3 className='text-gray-400 total'>Total Employee</h3>
                     </div>
                 </div>
                 <div className='flex justify-between items-center'>

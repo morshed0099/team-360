@@ -28,6 +28,7 @@ const Main = () => {
               <label htmlFor="my-drawer-2" className='absolute p-6 btn-circle lg:hidden'>X</label>
             </div>
             <h1 className='mt-2 mb-14 text-2xl text-white text-center'>Morshed</h1>
+            <input  type="text" placeholder="Search" className=" input text-indigo-800 mb-3 search input-bordered input-sm block w-full md:hidden " />
 
             <li> <NavLink to='/' className='w-full flex pl-12'> <img className='w-[20px] h-[20px]' src={svgd} alt="" />Dashboard</NavLink></li>
             <li> <NavLink className={({isActive})=>isActive?"active":"deactive"} to='/attendance'> <img className='w-[20px] h-[20px]' src={svgd} alt="" />Attendance</NavLink></li>

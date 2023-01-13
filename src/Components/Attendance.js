@@ -11,15 +11,15 @@ import left from '../media/leftarow.png'
 const Attendance = () => {
 
     return (
-        <div  data-aos="fade-left" className=' ml-4 md:ml-10 mt-10'>
-            <div  data-aos="fade-down" className='flex justify-between mb-24 items-center'>
-                <h1 className='text-2xl font-bold text-indigo-800'>Attendance </h1>
+        <div   className=' ml-4 md:ml-10 mt-10'>
+            <div  className='flex justify-between mb-8 items-center'>
+                <h1 className='text-2xl mr-2 md:mr-0 lg:mr-0 font-bold text-indigo-800'>Attendance </h1>
                 <div className='flex mr-6'>
                     <button className='btn capitalize btn-sm mr-8 bg-indigo-800 shadow-lg'>Download Report</button>
                     <img className='w-8 h-8' src={giear} alt="" />
                 </div>
             </div>
-            <div  data-aos="fade-up" className='mr-6 mb-6 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4'>
+            <div  className='mr-6 mb-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4'>
                 <div>
                     <input type="date" id='department' className='h-[64px] w-full  p-3 input input-bordered  rounded-md' />
                 </div>
